@@ -35,8 +35,14 @@ a.addEventListener("load",function(){
     //т.к. header перекрывает svg и не является ни родителем, ни потомком (не работает всплытие),
     // то события не доходят до объекта,
     // поэтому пробрасываем щелчок мышью вручную
-    var headrapper = document.getElementsByClassName("headwrap");
-    headrapper[0].addEventListener("click", function (event) {
+    var headwrapper = document.getElementsByClassName("headwrap");
+    headwrapper[0].addEventListener("click", function (event) {
+        newClickEvent = new MouseEvent(event.type, event);
+        svgDoc.dispatchEvent(newClickEvent);
+    }, false);
+
+    var menuTriangle = document.getElementsByClassName("triangle-menu__small-triangle-container");
+    menuTriangle[0].addEventListener("click", function (event) {
         newClickEvent = new MouseEvent(event.type, event);
         svgDoc.dispatchEvent(newClickEvent);
     }, false);
@@ -196,12 +202,17 @@ a.addEventListener("load",function(){
     }
 }, false);
 
+var triangleMenu = document.getElementsByClassName("triangle-menu");
+var menuWhiteLine = document.getElementsByClassName("triangle-menu__white-line");
+var menuReferense = document.getElementsByTagName("nav");
+
 function MenuAnimation () {
     document.getElementsByClassName("triangle-menu")[0].style.width = "600px";
     document.getElementsByClassName("triangle-menu")[0].style.height = "900px";
     document.getElementsByClassName("triangle-menu__big-triangle-container")[0].style.left = 0;
     document.getElementsByClassName("triangle-menu__white-line-container")[0].style.left = 0;
     isMenuVisible = true;
+    setTimeout(navBeforeTriangle,500);
 };
 
 function resizeMenu(){
@@ -209,9 +220,25 @@ function resizeMenu(){
     document.getElementsByClassName("triangle-menu")[0].style.height = "250px";
 }
 
+function navBeforeTriangle() {
+    var navMenu = triangleMenu[0].appendChild(menuReferense[0]);
+    navMenu.style.position = "absolute";
+    navMenu.style.zIndex = "5";
+}
+
 function MenuCloseAnimation() {
     document.getElementsByClassName("triangle-menu__big-triangle-container")[0].style.left = "-405px";
     document.getElementsByClassName("triangle-menu__white-line-container")[0].style.left = "-600px";
+    var navMenu = menuWhiteLine[0].appendChild(menuReferense[0]);
+    navMenu.style.position = "relative";
+    navMenu.style.zIndex = "1";
     isMenuVisible = false;
     setTimeout(resizeMenu,500);
 };
+
+
+
+bigTriangleContainer[0].addEventListener("mousemove", function (event) {
+    newMoveEvent = new MouseEvent(event.type, event);
+    svgDoc.dispatchEvent(newClickEvent);
+}, false);
