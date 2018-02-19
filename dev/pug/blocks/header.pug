@@ -1,0 +1,22 @@
+div.center-container
+    object(id="svgimg" data="img/common/Towers.svg" type="image/svg+xml")
+    header
+        include ../blocks/popup
+        include ../blocks/menu
+        div.headwrap
+            div.header__upperline-cont
+                div.header__logo
+                    a(href="javascript:void(0);")
+                        img(src="/img/common/logo.png" alt="1CITY MOSCOW")
+                div.header__partner-text
+                    span  #{content.text.header_partner_text}
+                div(class="header__lang round-icon")
+                    a(href="javascript:void(0);") RU
+                div(class="header__phone-icon round-icon")
+                    a(href="javascript:void(0);")
+                div(class="header__contacts", id="cont")
+                    p #{content.text.tel}
+                div(class="header__telegram-icon round-icon")
+                    a(href="javascript:void(0);")
+                div(class="header__whatsapp-icon round-icon")
+                    a(href="javascript:void(0);")

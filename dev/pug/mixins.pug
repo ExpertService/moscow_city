@@ -1,0 +1,30 @@
+mixin icon(name,mod)
+	- mod = mod || ''
+	svg(class="icon icon-" + name + ' ' + mod)
+		use(xlink:href="img/svg/symbol/sprite.svg#" + name)
+
+//использование +icon('имя файл иконки', 'имя дополнительного класса для стилей'
+
+mixin tower_popup(tower_id, class_popup, tower_header, floor, square, quantity_office_lease, quantity_office_sale, quantity_apartment_lease, quantity_apartment_sale, link_more_info)
+	div(id= tower_id, class= class_popup)
+		h2.tower-popup__tower-header= tower_header
+		div.tower-popup__floor-and-square
+			div.tower-popup__floor= floor
+			div.tower-popup__square= square
+		div.tower-popup__container
+			div.tower-popup__quantity= quantity_office_lease
+			span.tower-popup__quantity-text офиса в аренду
+			br
+			div.tower-popup__quantity= quantity_office_sale
+			span.tower-popup__quantity-text офиса на продажу
+			br
+			div.tower-popup__quantity= quantity_apartment_lease
+			span.tower-popup__quantity-text апартаменты в аренду
+			br
+			div.tower-popup__quantity= quantity_apartment_sale
+			span.tower-popup__quantity-text апартаменты на продажу
+			br
+		div.tower-popup__more-info
+			a(href= link_more_info) Подробнее о башне
+
+

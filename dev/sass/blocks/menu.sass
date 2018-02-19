@@ -1,0 +1,202 @@
+//вариант треугольника с помощью borders
+//.header__main-menu
+//  position: absolute
+//  top: 0px
+//  left: 0px
+//  border-color: yellow blue transparent green
+//  border-style: solid
+//  border-width: 0px 0px 400px 200px
+//  width: 0px
+//  height: 0px
+
+//вариант треугольника с помощью трансформации
+.triangle-menu
+  position: absolute
+  z-index: 1
+  top: 0px
+  left: 0px
+  width: 150px
+  height: 250px
+  overflow: hidden
+
+
+.triangle-menu__small-triangle-container
+  position: absolute
+  top: 0px
+  left: 0px
+  z-index: 2
+
+.triangle-menu__small-triangle
+  width: 140px
+  height: 247px
+  position: relative
+  overflow: hidden
+.triangle-menu__small-triangle:before
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  width: 140px
+  height: 300px
+  background-color: #00b8ae
+  transform-origin: right top
+  transform: rotate(29deg)
+
+.menu-icon
+  position: absolute
+  top: 45px
+  left: 45px
+  width: 24px
+  height: 18px
+.line
+  position: relative
+  background-color: #fff
+  height: 2px
+  margin-bottom: 6px
+.menu-icon :nth-child(3)
+  width: 14px
+.line
+  a
+    display: block
+    position: absolute
+    z-index: 2
+    top: 0px
+    left: 0px
+    width: 24px
+    height: 18px
+
+.triangle-menu__big-triangle-container
+  position: absolute
+  top: 0px
+  left: -405px
+  width: 405px
+  height: 728px
+  overflow: hidden
+  z-index: 3
+  transition-property: left
+  transition-duration: 0.3s
+  transition-timing-function: cubic-bezier(0, 0, 1, 1)
+
+.triangle-menu__big-triangle
+  width: 405px
+  height: 728px
+  position: relative
+  overflow: hidden
+
+
+.triangle-menu__big-triangle:before
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  width: 405px
+  height: 900px
+  background-color: #00b8ae
+  transform-origin: right top
+  transform: rotate(29deg)
+
+.triangle-menu__slogan-container
+  position: absolute
+  top: 45px
+  left: 45px
+  width: 200px
+  vertical-align: top
+
+
+.triangle-menu__slogan-container
+  div
+    position: relative
+    height: 20px
+    vertical-align: top
+
+
+.triangle-menu__slogan-container
+  a
+    display: inline-block
+    margin-right: 20px
+    width: 24px
+    height: 24px
+    padding-left: 40px
+    background-image: url(../img/common/close-button.png)
+    background-position: 0 0
+    background-repeat: no-repeat
+    color: white
+    font-size: 10px
+    font-weight: bolder
+    line-height: 24px
+
+.triangle-menu__slogan-container
+  p
+    margin-top: 28px
+    font-size: 14px
+    font-weight: bold
+    color: white
+
+.triangle-menu__white-line-container
+  position: absolute
+  top: 0px
+  left: -600px
+  overflow: hidden
+  z-index: 1
+  transition-property: left
+  transition-duration: 0.5s
+  transition-timing-function: cubic-bezier(0, 0, 1, 1)
+
+.triangle-menu__white-line
+  width: 600px
+  height: 1000px
+  position: relative
+  overflow: hidden
+
+
+.triangle-menu__white-line:before
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  width: 600px
+  height: 1200px
+  background-color: #ffffff
+  transform-origin: right top
+  transform: rotate(29deg)
+
+li:nth-child(1)
+  position: absolute
+  top: 93px
+  left: 384px
+  z-index: 2
+li:nth-child(2)
+  position: absolute
+  top: 139px
+  left: 360px
+  z-index: 2
+li:nth-child(3)
+  position: absolute
+  top: 185px
+  left: 336px
+  z-index: 2
+li:nth-child(4)
+  position: absolute
+  top: 231px
+  left: 312px
+  z-index: 2
+li:nth-child(5)
+  position: absolute
+  top: 277px
+  left: 288px
+  z-index: 2
+li:nth-child(6)
+  position: absolute
+  top: 323px
+  left: 264px
+  z-index: 2
+
+nav
+  a
+    color: black
+    font-size: 14px
+    font-weight: bolder
+nav
+  a:hover
+    color: #00b8ae
+    text-decoration: underline

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="towers" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 width="1600px" height="1164px" x="0px" y="0px"
+	 viewBox="0 0 1600 1164" style="enable-background:new 0 0 1600 1164;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.451;fill:#00B8AE;enable-background:new    ;visibility:hidden}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;visibility:hidden}
+	.st2{fill:#FFFFFF;visibility:hidden}
+	.st3{opacity:0.502;fill:#00B8AE;enable-background:new    ;visibility:hidden}
+	.st4{opacity:0.6;fill:#00B8AE;stroke:#FFFFFF;stroke-width:2;enable-background:new    ;visibility:hidden}
+	.st5{opacity:0.6;fill:#00B8AE;enable-background:new    ;visibility:hidden}
+	.st6{opacity:0.502;fill:#00B8AE;stroke:#FFFFFF;stroke-width:2;enable-background:new    ;visibility:hidden}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:3;visibility:hidden}
+	.st8{opacity:0.902;fill:none;stroke:#FFFFFF;stroke-width:3;enable-background:new    ;visibility:hidden}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1600" height="1164" xlink:href="bg-index-page.png"  transform="matrix(0.9991 0 0 0.9991 0.6867 0)">
+</image>
+<path id="tower_fill13" pointer-events="all" class="st0" d="M439.8,135.7l-77.9,17l5,310.7l10,25l166.9-40l-5-127.9l-2-4v-70.9
+	l-3-4l-1-44l-9-29h-3l-9-25l-28,5v28l-7,2l-1,47v22l-14-10l-16,7l-1-92.9L439.8,135.7z"/>
+<path id="tower_outline13" class="st1" d="M439.8,135.7l-77.9,17l5,310.7l10,25l164.9-41l-1-125.9l-2-4l-2-71.9l-3-4l-1-44l-8-29h-3
+	l-10-26l-28,5l-1,29l-7,2l-1,47l1,163.9l-14,8l-16-14l-1-231.8L439.8,135.7z"/>
+
+	<path id="tower_circle13" class="st1" d="M461,386c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S454.4,386,461,386z"/>
+	<path id="tower_inner_circle13" class="st2" d="M461,391c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S457.1,391,461,391z"/>
+	<path id="tower_line13" class="st1" d="M468,386l177.8-221.8h140.9"/>
+
+<path id="tower_fill12" pointer-events="all" class="st3" d="M462,237l-51,24l4,427l38,33l93-64l-4-308l-32-26l-20,11l-1-70L462,237z"/>
+<path id="tower_outline12" class="st1" d="M462,237l-51,24l4,427l38,33l93-64l-4-308l-32-26l-20,11l-1-70L462,237z"/>
+
+	<path id="tower_circle12" class="st1" d="M496,448c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S489.4,448,496,448z"/>
+	<path id="tower_inner_circle12" class="st2" d="M496,453c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S492.1,453,496,453z"/>
+	<path id="tower_line12" class="st1" d="M499,449.5l143-284h141"/>
+
+<path id="tower_fill11" pointer-events="all" class="st3" d="M612,358l11,8l1,62l4-1l10,11l3,284l-24.5,40.8L591,773.4l-22.6-3.4l-15.4-9l-1-288l14-27
+	v-39c0,0,8.3-26.2,26-43L612,358z"/>
+<path id="tower_outline11" class="st1" d="M612,358l11,8l1,62l4-1l10,11l3,284l-24.5,40.8L591,773.4l-22.6-3.4l-15.4-9l-1-288l14-27
+	v-39c0,0,8.3-26.2,26-43L612,358z"/>
+
+	<path id="tower_circle11" class="st1" d="M586,478c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S579.4,478,586,478z"/>
+	<path id="tower_inner_circle11" class="st2" d="M586,483c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S582.1,483,586,483z"/>
+	<path id="tower_line11" class="st1" d="M589,479.2l63-314h131"/>
+
+<path id="tower_fill10" pointer-events="all" class="st3" d="M713.5,745.8c61.9,15,112.9-8.8,110.5-12.8c0,0-2.8-175.8-6.1-313.5
+	C815.3,311.9,811,216,811,216s-30.5-9.9-43-8l-18,5l-5,127h-14c0,0-4.1,5.7-7,41c-1.2,14.3-6.1,74-8,139.9
+	C713.2,617.3,713.5,745.8,713.5,745.8z"/>
+<path id="tower_outline10" class="st1" d="M711.5,745.8c61.9,15,114.9-6.8,112.5-10.8c0,0-1.8-177.8-5.1-315.5
+	C816.3,311.9,811,216,811,216s-30.5-9.9-43-8l-18,5l-6,127h-14c0,0-4.1,5.7-7,41c-1.2,14.3-7.1,74-9,139.9
+	C711.2,617.3,711.5,745.8,711.5,745.8z"/>
+
+	<path id="tower_circle10" class="st1" d="M766,348c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S759.4,348,766,348z"/>
+	<path id="tower_inner_circle10" class="st2" d="M766,353c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S762.1,353,766,353z"/>
+	<path id="tower_line10" class="st1" d="M769,349.2l33-184h91"/>
+
+<path id="tower_fill9" pointer-events="all" class="st3" d="M945.7,115.4L901,152.2v27.9L881.6,196v83.7l-8.7,9v98.6l-7.8,7v51.8l39.8,25.9h7.8l15.6,10
+	l18.5-13.9L945.7,115.4z"/>
+<path id="tower_outline9" class="st1" d="M946,114l-46,37v28l-20,16v84l-9,9v99l-8,7v52l41,26h8l16,10l19-14L946,114z"/>
+
+	<path id="tower_circle9" class="st1" d="M921,288c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S914.4,288,921,288z"/>
+	<path id="tower_inner_circle9" class="st2" d="M921,293c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S917.1,293,921,293z"/>
+	<path id="tower_line9" class="st1" d="M919,288l-33-124h-31"/>
+
+<path id="tower_fill7" pointer-events="all" class="st4" d="M1099,129l9-4l14,5l-1,7l31,13l6-5l13,6v62l3,3v12l-3,3v7l3,3v9l-3,4v6l3,3v8l-3,3l-1,101v46
+	v92l-45,45l-75-45V145l15-8l9,5L1099,129z"/>
+<path id="tower_outline7" class="st1" d="M1099,129l9-4l14,5v7l30,13l6-5l13,6v62l3,3v12l-3,3v7l3,3v9l-3,4v6l3,3v8l-3,3l-1,101v46
+	v92l-45,45l-75-45V145l15-8l9,5L1099,129z"/>
+
+	<path id="tower_circle7" class="st1" d="M1091,288c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S1084.4,288,1091,288z"/>
+	<path id="tower_inner_circle7" class="st2" d="M1091,293c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S1087.1,293,1091,293z"/>
+	<path id="tower_line7" class="st1" d="M1080.6,294l-195-130h-31"/>
+
+<path id="tower_fill8" pointer-events="all" class="st3" d="M1001,106l-21,22l-7,19l-10-5l-24,1v349l76,47l56-53V138h-24l-14,9l-12-21L1001,106z"/>
+<path id="tower_outline8" class="st1" d="M1001,106l-21,22l-7,19l-10-5l-24,1v349l76,47l56-53V138h-24l-14,9l-12-21L1001,106z"/>
+
+	<path id="tower_circle8" class="st1" d="M1011,288c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S1004.4,288,1011,288z"/>
+	<path id="tower_inner_circle8" class="st2" d="M1011,293c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S1007.1,293,1011,293z"/>
+	<path id="tower_line8" class="st1" d="M1002.7,290l-117-126h-31"/>
+
+<path id="tower_fill5" pointer-events="all" class="st5" d="M1149,264l59,1v-3h6l4,36l5,1c0,0,7.5,38.6,8,60s-9.1,86.3-10,92s-8,41-8,41l10,45l8,49
+	c0,0-1.1,24,27,42l50,31v19l-32,37l-140-93c0,0,8.6-116.2,14-131C1150,491,1132,347.5,1149,264z"/>
+<path id="tower_outline5" class="st1" d="M1149,264l59,1v-3h6l4,36l5,1c0,0,7.5,38.6,8,60s-9.1,86.3-10,92s-8,41-8,41l10,45l8,49
+	c0,0-1.1,24,27,42l50,31v19l-32,37l-140-93c0,0,8.6-116.2,14-131C1150,491,1132,347.5,1149,264z"/>
+
+	<path id="tower_circle5" class="st1" d="M1181,338c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S1174.4,338,1181,338z"/>
+	<path id="tower_inner_circle5" class="st2" d="M1181,343c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S1177.1,343,1181,343z"/>
+	<path id="tower_line5" class="st1" d="M1170.5,344l-285-180h-31"/>
+
+<path id="tower_fill4" pointer-events="all" class="st6" d="M1128,375l15,8l4,234l11-11l13,7l1,15l79,59v33l95,56v12l-83,107L985,698V402l78-62l8,4l30-24
+	c0,0,10.3-4.3,17,10S1130.4,372.3,1128,375z"/>
+<path id="tower_outline4" class="st1" d="M1128,375l15,8l4,234l11-11l13,7l1,15l79,59v33l95,56v12l-83,107L985,698V402l78-62l8,4
+	l30-24c0,0,10.3-4.3,17,10C1124.8,344.3,1136,369.4,1128,375z"/>
+
+	<path id="tower_circle4" class="st1" d="M1071,378c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S1064.4,378,1071,378z"/>
+	<path id="tower_inner_circle4" class="st2" d="M1071,383c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S1067.1,383,1071,383z"/>
+	<path id="tower_line4" class="st1" d="M1068.8,379l-183-215h-101"/>
+
+<path id="tower_fill3" pointer-events="all" class="st3" d="M966,387l-37,29l3,117l-15,9v67l-3,4v71l5,4v53l-11,7l-1,97l-12,12l134,158c0,0,10.1,1.9,18-8
+	s123-118,123-118s28.9-9.8,7-27s-84-62-84-62l-14-64l-46-31l-24,21l-1-149l6-7l-2-79l-3-1l-1-79L966,387z"/>
+<path id="tower_outline3" class="st1" d="M966,387l-37,29l2,117l-14,9v67l-3,4v71l5,4v53l-11,7l-1,97l-13,10l130,158
+	c0,0,7.3,9.6,22-3c12.6-10.8,71-70,71-70s84.4-62.8,65-76c-23.1-15.6-89-64-89-64l-14-64l-46-31l-23,21l-2-149l6-7l-2-79l-3-1v-79
+	L966,387z"/>
+
+	<path id="tower_circle3" class="st1" d="M971,428c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S964.4,428,971,428z"/>
+	<path id="tower_inner_circle3" class="st2" d="M971,433c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S967.1,433,971,433z"/>
+	<path id="tower_line3" class="st1" d="M969,429l-83-265H785"/>
+
+<path id="tower_fill2" pointer-events="all" class="st3" d="M834,1062c0,0-49,24.3-91,4s-49.2-32-55-56l-3-260l-3-214c0,0,12.4-44.8,74-65
+	c43.2-14.2,89.7,2.8,101,11l-2,5l9,7l1,319l17-46c0,0,18.1,3,15,59s3,130,3,130S907.4,1031.2,834,1062z"/>
+<path id="tower_outline2" class="st7" d="M834,1062c0,0-49,24.3-91,4s-49.2-32-55-56l-3-260l-3-214c0,0,12.4-44.8,74-65
+	c43.2-14.2,89.7,2.8,101,11l-2,5l9,7l1,319l17-46c0,0,18.1,3,15,59s3,130,3,130S907.4,1031.2,834,1062z"/>
+
+	<path id="tower_circle2" class="st1" d="M776,518c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S769.4,518,776,518z"/>
+	<path id="tower_inner_circle2" class="st2" d="M776,523c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S772.1,523,776,523z"/>
+	<path id="tower_line2" class="st1" d="M777,520.1l35-355h115"/>
+
+<path id="tower_fill1" class="st3" pointer-events="all" d="M495.6,592L472,606l4.4,276.6l19.3,44.6l42.9,41.1l0.9,28.9l49,43.8l71.8-121.7l-0.9-12.3
+	l-4.4-16.6l20.1-34.1l0.9-10.5l-12.3-7l-0.9-202.2l-7.9-28l-30.6,7.9l-1.8-5.3l-70-5.3l-0.9-10.5L495.6,592z"/>
+<path id="tower_outline1" class="st8" d="M495.6,593L472,607l4.4,276.6l19.3,44.6l42.9,41.1l0.9,28.9l49,43.8l71.8-121.7l-0.9-12.3
+	l-4.4-16.6l20.1-34.1l0.9-10.5l-12.3-7l-0.9-202.2l-7.9-28l-30.6,7.9l-1.8-5.3l-70-5.3l-0.9-10.5L495.6,593z"/>
+
+	<path id="tower_circle1" class="st1" d="M568,618c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S561.4,618,568,618z"/>
+	<path id="tower_inner_circle1" class="st2" d="M568,623c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S564.1,623,568,623z"/>
+	<path id="tower_line1" class="st1" d="M569,620.1l35-355h110"/>
+
+</svg>
