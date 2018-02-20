@@ -235,10 +235,3 @@ function MenuCloseAnimation() {
     isMenuVisible = false;
     setTimeout(resizeMenu,500);
 };
-
-
-
-bigTriangleContainer[0].addEventListener("mousemove", function (event) {
-    newMoveEvent = new MouseEvent(event.type, event);
-    svgDoc.dispatchEvent(newClickEvent);
-}, false);
