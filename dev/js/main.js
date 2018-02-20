@@ -235,3 +235,21 @@ function MenuCloseAnimation() {
     isMenuVisible = false;
     setTimeout(resizeMenu,500);
 };
+
+function checkAll(checkboxAll) {
+    var checkboxes = document.getElementsByName('towers');
+    if (checkboxAll.checked) {
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].type == 'checkbox') {
+                checkboxes[i].checked = true;
+            }
+        }
+    } else {
+        for (var i = 0; i < checkboxes.length; i++) {
+            console.log(i)
+            if (checkboxes[i].type == 'checkbox') {
+                checkboxes[i].checked = false;
+            }
+        }
+    }
+}

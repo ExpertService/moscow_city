@@ -5,3 +5,56 @@ div.form-buy-lease-container
             label(for="buy_btn" class="radio-buy-lease__text buy") Покупка
             input(type="radio" name="buy_lease" id="lease_btn").radio-buy-lease__btn
             label(for="lease_btn" class="radio-buy-lease__text lease") Аренда
+        div.form-buy-lease__check-boxes-container
+            div.form-buy-lease__accomodation-checkboxes
+                label.checkbox-label
+                    input(type="checkbox" name="accomodation" value="apartaments").checkbox
+                    span.checkbox-text Апартаменты
+                label.checkbox-label
+                    input(type="checkbox" name="accomodation" value="offices").checkbox
+                    span.checkbox-text Офисы
+                label.checkbox-label
+                    input(type="checkbox" name="accomodation" value="penthouses").checkbox
+                    span.checkbox-text Пентхаусы
+            div.form-buy-lease__decoration-checkboxes
+                label.checkbox-label
+                    input(type="checkbox" name="decoration" value="with_decoration").checkbox
+                    span.checkbox-text С отделкой
+                label.checkbox-label
+                    input(type="checkbox" name="decoration" value="without_decoration").checkbox
+                    span.checkbox-text Без отделки
+            div.form-buy-lease__furniture-checkboxes
+                label.checkbox-label
+                    input(type="checkbox" name="furniture" value="with_furniture").checkbox
+                    span.checkbox-text С мебелью
+                label.checkbox-label
+                    input(type="checkbox" name="furniture" value="without_furniture").checkbox
+                    span.checkbox-text Без мебели
+            div.form-buy-lease__towers-checkboxes
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="northen_tower").checkbox
+                    span.checkbox-text Северная башня
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="neva_towers").checkbox
+                    span.checkbox-text Neva Towers
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="OKO_towers").checkbox
+                    span.checkbox-text OKO
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="federation_tower").checkbox
+                    span.checkbox-text Башня федерация
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="citiescapitals_towers").checkbox
+                    span.checkbox-text Город столиц
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="iq_tower").checkbox
+                    span.checkbox-text IQ-квартал
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="mercury_tower").checkbox
+                    span.checkbox-text Меркурий
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="impire_tower").checkbox
+                    span.checkbox-text Империя
+                label.checkbox-label
+                    input(type="checkbox" name="towers" value="all_towers" onchange="checkAll(this)").checkbox
+                    span.checkbox-text Все башни

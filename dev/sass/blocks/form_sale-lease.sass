@@ -51,3 +51,58 @@
     & +.radio-buy-lease__text
       background-color: #00b8ae
       color: #ffffff
+
+.form-buy-lease__check-boxes-container
+  display: flex
+  margin-left: 16px
+  padding-top: 45px
+
+.form-buy-lease__accomodation-checkboxes
+  box-sizing: content-box
+  margin-left: 30px
+  padding-right: 33px
+  padding-top: 7px
+  height: 130px
+  border-right: solid 1px #e5e5e5
+.form-buy-lease__decoration-checkboxes
+  box-sizing: content-box
+  margin-left: 30px
+  padding-right: 33px
+  padding-top: 7px
+  height: 130px
+  border-right: solid 1px #e5e5e5
+.form-buy-lease__furniture-checkboxes
+  box-sizing: content-box
+  margin-left: 30px
+  padding-right: 50px
+  padding-top: 7px
+  height: 130px
+  border-right: solid 1px #e5e5e5
+.form-buy-lease__towers-checkboxes
+  box-sizing: content-box
+  margin-left: 30px
+  padding-top: 7px
+  height: 130px
+  column-count: 3
+  column-gap: 33px
+
+
+
+.checkbox-text
+  display: block
+  margin-bottom: 17px
+  padding-left: 37px
+  height: 25px
+  background-image: url(../img/common/unchecked.png)
+  background-repeat: no-repeat
+  font-size: 14px
+  font-weight: bolder
+  color: #e1e1e1
+  user-select: none
+
+.checkbox
+  display: none
+  &:checked
+    & +.checkbox-text
+      background-image: url(../img/common/checked.png)
+      color: #000
