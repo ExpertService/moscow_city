@@ -47,6 +47,24 @@ a.addEventListener("load",function(){
         svgDoc.dispatchEvent(newClickEvent);
     }, false);
 
+    //заполнение значениями площади select
+    var objSelectFrom = document.getElementById("squarefrom");
+    var objSelectTo = document.getElementById("squareto");
+    for (i = 10; i <= 4300; i = i+10 ){
+        addOption(objSelectFrom, i, i, false);
+        addOption(objSelectTo, i, i, true);
+    }
+
+    function addOption (objSelect, text, value, isDefaultSelected)
+    {
+        var objOption = document.createElement("option");
+        objOption.appendChild(document.createTextNode(text));
+        objOption.setAttribute("value", value);
+
+        if (isDefaultSelected) objOption.defaultSelected = true;
+        //else if (isSelected) oOption.selected = true;
+        objSelect.appendChild(objOption);
+    }
 
     svgDoc.addEventListener("click", function () {
         //этот обработчик добавлен для отслеживания клика мыши в пределах SVG, но не в пределах контура башен
@@ -253,3 +271,4 @@ function checkAll(checkboxAll) {
         }
     }
 }
+
